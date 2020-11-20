@@ -1,0 +1,182 @@
+*, ::before ::after {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	margin:60px;
+	background-image: url(../ima/phasmophobia-sanity-effects-0.jpg);
+	background-repeat:no-repeat;
+	background-attachment: fixed;
+
+}
+
+#umbrella{
+	
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 80px;		
+}
+h1 {
+	position:absolute;
+	top:140px;
+	color: #247356;
+	font-family:'LunacyMore'; 
+}
+
+
+#bob{
+	margin-top: 5%;
+}
+
+#image {
+	opacity: initial;
+	width: 60%;
+	height: 600px;
+	position: relative;
+	left: 20%;
+	border-radius: 20px;
+	
+}
+
+
+
+
+.Accueil1 a + a {
+  margin-left: 30px;
+}
+
+
+#header {		/*couleur de haut page*/
+	height: 200px;
+	background: #262626;
+	text-align:center;
+	opacity: 0.9;
+	background-attachment: fixed;
+}
+
+ #carre {
+ 	margin-top:-16px;
+ 	height: 120%;
+ 	background-color: rgba(0, 0, 0, 0.6);
+
+ 
+ }
+@font-face{
+	font-family: 'October Crow';
+	src: url('../ima/October Crow.ttf');
+	
+}
+@font-face{ 
+	font-family: 'shlop.regular';
+	src: url('../ima/shlop.regular.ttf');
+}
+@font-face{
+	font-family: 'LunacyMore';
+	src: url('../ima/LunacyMore.ttf');
+	}
+b {
+	color:#390D0D ;
+	font-family: 'October Crow'; 
+	font-size: 100px;
+
+}
+
+
+h3{
+	text-align: center;
+	font-size: 35px;
+	color:white;
+}
+
+d {
+	color: #286215;
+}
+
+#i1 {
+	font-size: 40px;
+	color: #89a387;
+}
+table  {
+	border-collapse: separate;
+	text-align: center; 
+	
+}
+
+.table {
+	border-spacing: 20px;
+	
+
+}
+
+
+
+th {
+	font-size: 20px;
+}
+
+a {
+	color: #247356;
+}
+
+t {
+font-weight:bold;
+font-size:23px;
+color: #C4E1C2;
+}
+
+c {
+	font-size: 17px;
+	color: #EAE9E9;
+}
+
+#grand-titre {
+	color: #262626;
+}
+
+
+h2{
+	color: #286215;
+}
+#bas {
+	margin-right: 30px;
+}
+#Tanglewood {
+	display: inline-block;
+}
+#Tanglewood:hover {
+	 height: 600px;
+	transform: translateX(30px);
+	
+}
+
+#Edgefield:hover{
+	height: 600px;
+	transform: translateX(30px);
+}
+
+#Ridgeview:hover{
+	height: 700px;
+	transform: translateX(30px);
+}
+#Grafton:hover{
+	height: 700px;
+	transform: translateX(30px);
+}
+
+#Bleasdale:hover{
+	height: 700px;
+	transform: translateX(30px);
+}
+
+#Ecole:hover{
+	height: 600px;
+	transform: translateX(30px);
+}
+
+#Azile:hover{
+	height: 700px;
+	transform: translateX(30px);
+}
