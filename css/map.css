@@ -145,38 +145,46 @@ h2{
 }
 #Tanglewood {
 	display: inline-block;
+	transition: all 1s ease;
 }
 #Tanglewood:hover {
 	 height: 600px;
 	transform: translateX(30px);
+	transition: all 1s ease;
 	
 }
 
 #Edgefield:hover{
 	height: 600px;
 	transform: translateX(30px);
+	transition: all 1s ease;
 }
 
 #Ridgeview:hover{
 	height: 700px;
 	transform: translateX(30px);
+	transition: all 1s ease;
 }
 #Grafton:hover{
 	height: 700px;
 	transform: translateX(30px);
+	transition: all 1s ease;
 }
 
 #Bleasdale:hover{
 	height: 700px;
 	transform: translateX(30px);
+	transition: all 1s ease;
 }
 
 #Ecole:hover{
 	height: 600px;
 	transform: translateX(30px);
+	transition: all 1s ease;
 }
 
 #Azile:hover{
 	height: 700px;
 	transform: translateX(30px);
+	transition: all 1s ease;
 }
