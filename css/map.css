@@ -77,7 +77,7 @@ h1 {
 	font-family: 'LunacyMore';
 	src: url('../ima/LunacyMore.ttf');
 	}
-b {
+m {
 	color:#390D0D ;
 	font-family: 'October Crow'; 
 	font-size: 100px;
@@ -107,14 +107,18 @@ table  {
 
 .table {
 	border-spacing: 20px;
-	
+	text-align: center;
 
 }
 
-
+#souligne{
+	text-decoration: none;
+	color: rgb(117, 158, 114) ;
+}
 
 th {
 	font-size: 20px;
+	text-align: center;
 }
 
 a {
@@ -136,9 +140,13 @@ c {
 	color: #262626;
 }
 
+#gras{
+	font-size: 20px;
+	color: rgb(117, 158, 114) ;
+}
 
 h2{
-	color: #286215;
+	color: rgb(40, 97, 21);
 }
 #bas {
 	margin-right: 30px;
@@ -200,6 +208,7 @@ h2{
 	transform: translateX(30px);
 	transition: all 1s ease;
 }
+
 marquee{
 	color: orangered;
 	padding: 10px 0;
@@ -211,4 +220,31 @@ marquee{
 	height: 40px;
 	width: 100px;
 	text-align: center;
+}
+
+td {
+	color: white;
+	border-bottom : 1px solid white;
+	
+}
+#durée {
+	border-collapse: collapse;
+	text-align: left;
+	vertical-align: 30%;
+	width: 450px;
+	
+}
+
+#table_tête{
+	background-color: rgb(22, 22, 22);
+}
+
+#lipoint{
+	color: white;
+	list-style-type: square;
+}
+
+#hrlongueur{
+	width: 50%;
+	margin-left: 0%;
 }
